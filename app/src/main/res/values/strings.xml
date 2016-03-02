@@ -4,4 +4,8 @@
     <string name="strGetGreeted">Get Greeted!</string>
     <string name="strNamePlaceholder">Name</string>
     <string name="strGreeting">Hello, %1$s!</string>
+    <string name="stringMiddleName">Enter Middle Name</string>
+    <string name="MiddleName">MiddleName</string>
+    <string name="Lastname">Last Name</string>
+    <string name="LastNameString">Lastname</string>
 </resources>

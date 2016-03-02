@@ -48,4 +48,25 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtxtMiddleNameField"
+        android:layout_alignBaseline="@+id/txtvwGreetingSpace"
+        android:layout_alignBottom="@+id/txtvwGreetingSpace"
+        android:layout_alignRight="@+id/btnGreetMe"
+        android:layout_alignEnd="@+id/btnGreetMe"
+        android:inputType="textPersonName"
+        android:text="@string/MiddleName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtxtLastNameField"
+        android:inputType="textPersonName"
+        android:text="@string/LastNameString"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
 </RelativeLayout>
