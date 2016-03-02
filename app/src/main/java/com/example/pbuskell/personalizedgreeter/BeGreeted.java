@@ -15,6 +15,8 @@ public class BeGreeted extends AppCompatActivity {
     Button btnGreetMe;
     EditText edtxtNameField;
     TextView txtvwGreetingSpace;
+    EditText edtxtMiddleNameField;
+    EditText edtxtLastNameField;
 
 
     @Override
@@ -24,6 +26,8 @@ public class BeGreeted extends AppCompatActivity {
 
         btnGreetMe = (Button) findViewById(R.id.btnGreetMe);
         edtxtNameField = (EditText) findViewById(R.id.edtxtNameField);
+        edtxtMiddleNameField = (EditText) findViewById(R.id.edtxtMiddleNameField);
+        edtxtLastNameField = (EditText) findViewById(R.id.edtxtLastNameField);
         txtvwGreetingSpace = (TextView) findViewById(R.id.txtvwGreetingSpace);
     }
 
