@@ -11,6 +11,8 @@ import android.widget.EditText;
 public class BeGreeted extends AppCompatActivity {
 
     String strUsersName = "";
+    String strMiddleName = "";
+    String strLastName = "";
 
     Button btnGreetMe;
     EditText edtxtNameField;
@@ -36,7 +38,9 @@ public class BeGreeted extends AppCompatActivity {
         Resources res = getResources();
 
         strUsersName = edtxtNameField.getText().toString();
+        strMiddleName = edtxtMiddleNameField.getText() .toString();
+        strLastName = edtxtLastNameField.getText(). toString();
 
-        txtvwGreetingSpace.setText(String.format(res.getString(R.string.strGreeting), strUsersName));
+        txtvwGreetingSpace.setText(String.format(res.getString(R.string.strGreeting), strUsersName, strMiddleName, strLastName));
     }
 }
